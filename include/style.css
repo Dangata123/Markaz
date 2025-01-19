@@ -1,0 +1,110 @@
+:root {
+  --bg-color: #7a6ad8;
+}
+.bg-primary-color {
+  background-color: var(--bg-color);
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+/***styling social icons on footer **/
+.footer-item ul li a {
+  color: white;
+}
+/*** end styling social icons on footer **/
+
+/*** karatun littafi adunkule **/
+.book {
+  display: flex;
+  justify-content: center;
+}
+.book-title {
+  height: 100%;
+  background-color: f2f2f2;
+}
+.book-title a {
+  color: black;
+}
+.thumb-image a img {
+  height: 70px;
+
+}
+
+/***end karatun littafi adunkule **/
+
+/** Header **/
+.logo-img {
+  height: 35px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+/**end Header **/
+
+
+/** sidebar style **/
+.menu-list {
+  padding: 0;
+}
+.menu-list-item {
+  margin: 6px;
+}
+.menu-list-item a {
+  color: #7a6ad8;
+}
+.menu-list-item a:hover {
+  color: white;
+  background-color: #7a6ad8;
+}
+/**end  sidebar style **/
+
+
+
+/** Recent post style **/
+
+.post-header-wrapper {
+  background-color: f2f2f2;
+}
+.post-header {
+  transform: skew(18deg, 0deg);
+  width: max-content;
+  background-color: #7a6ad8;
+  color: white;
+  padding: 3px;
+  padding-right: 20px;
+}
+.post-list-group {
+  padding: 10px;
+  padding-top: 0px;
+  list-style-type: none;
+}
+.post-list-group li a {
+  text-decoration: none;
+  color: black;
+
+}
+.post-list-item {
+  background-color: f2f2f2;
+  width: max-content;
+  margin-top: 5px;
+  padding: 5px;
+}
+.post-list-group li:hover {
+  background-color: #7a6ad8;
+}
+/** end Recent post style **/
+/*** footer style **/
+.footer {
+  color: white;
+  background-color: #241d44;
+}
+.footer-headers {
+  color: #a291f8;
+}
+
+/*** end footer style **/
